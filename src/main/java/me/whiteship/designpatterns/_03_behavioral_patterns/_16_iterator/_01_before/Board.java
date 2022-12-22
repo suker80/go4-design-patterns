@@ -2,7 +2,6 @@ package me.whiteship.designpatterns._03_behavioral_patterns._16_iterator._01_bef
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Set;
 
 public class Board {
 

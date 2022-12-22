@@ -3,7 +3,6 @@ package me.whiteship.designpatterns._01_creational_patterns._03_abstract_factory
 import me.whiteship.designpatterns._01_creational_patterns._02_factory_method._02_after.Ship;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class FactoryBeanExample {
 

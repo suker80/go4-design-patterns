@@ -1,9 +1,10 @@
 package me.whiteship.designpatterns._03_behavioral_patterns._23_visitor._03_java;
 
-import me.whiteship.designpatterns._03_behavioral_patterns._23_visitor._02_after.Triangle;
-
 import java.io.IOException;
-import java.nio.file.*;
+import java.nio.file.FileVisitResult;
+import java.nio.file.FileVisitor;
+import java.nio.file.Files;
+import java.nio.file.Path;
 import java.nio.file.attribute.BasicFileAttributes;
 
 public class SearchFileVisitor implements FileVisitor<Path> {

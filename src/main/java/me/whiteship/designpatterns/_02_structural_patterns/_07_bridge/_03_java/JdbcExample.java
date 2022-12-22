@@ -1,6 +1,9 @@
 package me.whiteship.designpatterns._02_structural_patterns._07_bridge._03_java;
 
-import java.sql.*;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+import java.sql.Statement;
 
 public class JdbcExample {
 

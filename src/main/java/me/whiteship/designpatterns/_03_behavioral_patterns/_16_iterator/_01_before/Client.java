@@ -1,7 +1,6 @@
 package me.whiteship.designpatterns._03_behavioral_patterns._16_iterator._01_before;
 
 import java.util.Collections;
-import java.util.Iterator;
 import java.util.List;
 
 public class Client {

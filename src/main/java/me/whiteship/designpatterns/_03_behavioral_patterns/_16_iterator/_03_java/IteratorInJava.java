@@ -1,6 +1,5 @@
 package me.whiteship.designpatterns._03_behavioral_patterns._16_iterator._03_java;
 
-import me.whiteship.designpatterns._03_behavioral_patterns._16_iterator._01_before.Post;
 import me.whiteship.designpatterns._03_behavioral_patterns._16_iterator._02_after.Board;
 
 import javax.xml.namespace.QName;
@@ -14,7 +13,6 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.util.Enumeration;
 import java.util.Iterator;
-import java.util.function.Consumer;
 
 public class IteratorInJava {
 
