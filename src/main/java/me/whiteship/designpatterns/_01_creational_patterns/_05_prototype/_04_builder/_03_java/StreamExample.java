@@ -1,4 +1,4 @@
-package me.whiteship.designpatterns._01_creational_patterns._04_builder._03_java;
+package me.whiteship.designpatterns._01_creational_patterns._05_prototype._04_builder._03_java;
 
 import java.util.stream.Stream;
 

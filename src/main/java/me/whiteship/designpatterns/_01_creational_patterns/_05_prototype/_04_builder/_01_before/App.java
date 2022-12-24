@@ -1,4 +1,4 @@
-package me.whiteship.designpatterns._01_creational_patterns._04_builder._01_before;
+package me.whiteship.designpatterns._01_creational_patterns._05_prototype._04_builder._01_before;
 
 import java.time.LocalDate;
 
