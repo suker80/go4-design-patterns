@@ -16,7 +16,7 @@ public class ProxyInJava {
         gameServiceProxy.startGame();
     }
 
-    private GameService getGameServiceProxy(GameService target) {
+    private GameService getGameServiceProxy(DefaultGameService target) {
         return  (GameService) Proxy.newProxyInstance(this.getClass().getClassLoader(),
                 new Class[]{GameService.class}, (proxy, method, args) -> {
                     System.out.println("O");
